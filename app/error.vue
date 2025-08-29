@@ -1,5 +1,12 @@
 <script setup>
+import { onMounted } from 'vue'
 import errorImage from './assets/images/404.svg?raw'
+
+const redirectUrl = 'https://your-target-url.com' // <-- Put your desired URL here
+
+onMounted(() => {
+  window.location.href = redirectUrl
+})
 </script>
 
 <template>
