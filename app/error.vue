@@ -2,7 +2,7 @@
 import { onMounted } from 'vue'
 import errorImage from './assets/images/404.svg?raw'
 
-const redirectUrl = 'https://eiotclub.com' // <-- Put your desired URL here
+const redirectUrl = 'https://linkbudd.com/eiot' // <-- Put your desired URL here
 
 onMounted(() => {
   window.location.href = redirectUrl
